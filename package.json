@@ -3,19 +3,44 @@
   "version": "0.0.1",
   "description": "个人博客",
   "main": "index.js",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
   "repository": "https://github.com/wangxingkang/blog.git",
   "author": "wangxingkang <wang_xingkang@qq.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
+    "element-ui": "^2.4.7",
     "lodash": "^4.17.11",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.17",
-    "vue-router": "^3.0.1"
+    "vue-class-component": "^6.2.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@types/jest": "^23.3.2",
     "@types/lodash": "^4.14.116",
     "@types/node": "^10.10.1",
+    "@vue/cli": "^3.0.3",
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-plugin-e2e-cypress": "^3.0.3",
+    "@vue/cli-plugin-pwa": "^3.0.3",
+    "@vue/cli-plugin-typescript": "^3.0.3",
+    "@vue/cli-plugin-unit-jest": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "@vue/test-utils": "^1.0.0-beta.25",
+    "babel-loader": "^8.0.2",
     "jest": "^23.6.0",
     "lint-staged": "^7.2.2",
     "node-sass": "^4.9.3",
@@ -23,10 +48,8 @@
     "ts-jest": "^23.1.4",
     "tslint": "^5.11.0",
     "typescript": "^3.0.3",
+    "vue-template-compiler": "^2.5.17",
     "webpack": "^4.19.1",
-    "webpack-chain": "^4.11.0",
-    "webpack-cli": "^3.1.0",
-    "webpack-merge": "^4.1.4",
-    "webpackbar": "^2.6.3"
+    "webpack-cli": "^3.1.0"
   }
 }
