@@ -866,6 +866,10 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
+"@types/fastclick@^1.0.28":
+  version "1.0.28"
+  resolved "http://registry.npm.taobao.org/@types/fastclick/download/@types/fastclick-1.0.28.tgz#db4b3f6f079235324b264338e229f9cdd98a6c4e"
+
 "@types/jest@^23.3.2":
   version "23.3.2"
   resolved "http://registry.npm.taobao.org/@types/jest/download/@types/jest-23.3.2.tgz#07b90f6adf75d42c34230c026a2529e56c249dbb"
@@ -3282,6 +3286,10 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "http://registry.npm.taobao.org/date-now/download/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
+dayjs@^1.7.5:
+  version "1.7.5"
+  resolved "http://registry.npm.taobao.org/dayjs/download/dayjs-1.7.5.tgz#14715cb565d1f8cb556a8531cb14bf1fc33067cc"
+
 de-indent@^1.0.2:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/de-indent/download/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
@@ -4111,6 +4119,10 @@ fast-json-stable-stringify@^2.0.0:
 fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "http://registry.npm.taobao.org/fast-levenshtein/download/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
+
+fastclick@^1.0.6:
+  version "1.0.6"
+  resolved "http://registry.npm.taobao.org/fastclick/download/fastclick-1.0.6.tgz#161625b27b1a5806405936bda9a2c1926d06be6a"
 
 fastparse@^1.1.1:
   version "1.1.1"
